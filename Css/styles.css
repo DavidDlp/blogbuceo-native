@@ -4,6 +4,7 @@
 body{
     margin: 0px;
     background-color: rgb(194, 167, 167);
+    font-family: arial;
 }
 
 header{
@@ -14,9 +15,21 @@ header{
     
 }
 
+.art_types{
+    border: 2px solid black;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+.div__types{
+    border: 1px solid black;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
 .navMain{
-    font-weight: bolder;
-    font-size: 24px;
+     font-weight: bolder;
 }
 ul{
     list-style: none;
