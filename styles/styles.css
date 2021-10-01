@@ -54,6 +54,10 @@ li{
 
 } 
 
+section {
+    text-align: center;
+}
+
 footer{
   background-color:rgb(124, 118, 118);
   height: 300px;
