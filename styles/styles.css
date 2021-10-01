@@ -3,7 +3,7 @@
 }
 body{
     margin: 0px;
-    background-color: rgb(194, 167, 167);
+    background-color: #ADA8B6;
     font-family: arial;
 }
 
@@ -15,6 +15,26 @@ header{
 }
 h2{
     text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.navheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #EFF8E2;;
+}
+
+.navheader__logo--style{
+    font-family: 'Comic Neue', cursive;
+    font-size: 32px;
+    color: #39044b;
 }
 
 .art_types{
@@ -42,7 +62,7 @@ h2{
 
 .navMain{
      font-weight: bolder;
-     background-color: white;
+     background: #EFF8E2;
 }
 ul{
     list-style: none;
@@ -76,7 +96,7 @@ li{
 
 
 footer{
-  background-color:rgb(124, 118, 118);
+  background-color: #573280;
   height: 300px;
   width: 100%;
 }
