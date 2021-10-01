@@ -56,19 +56,22 @@ li{
     padding: 10px;
 } 
 
-section {
-    text-align: center;
-}
-
-.div__div--position{
+.location{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    
+}
+.location:nth-child(odd){
+    flex-direction: row-reverse;
 }
 
-.div__div--position--flex{
-    border: 1px solid black;
-    width: 50%;
+.location__text{
+    flex: 1;
+}
+.location__img{
+    flex: 1;
 }
 
 
