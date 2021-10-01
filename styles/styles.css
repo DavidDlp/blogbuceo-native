@@ -17,13 +17,13 @@ header{
 .art_types{
     border: 2px solid black;
     text-align: center;
-    height: 300px;
     width: 100%;
 }
 .div__types{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .div__types--style{
