@@ -4,7 +4,8 @@
 body{
     margin: 0px;
     background-color: #ADA8B6;
-    font-family: arial;
+    font-family: 'Comic Neue', cursive;
+    font-size: 24px;
 }
 
 header{
@@ -34,7 +35,7 @@ a{
 .navheader__logo--style{
     font-family: 'Comic Neue', cursive;
     font-size: 32px;
-    color: #39044b;
+    color: #781699;
 }
 
 .art_types{
