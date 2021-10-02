@@ -99,14 +99,17 @@ li{
 
 footer{
   background-color: #573280;
-  height: 300px;
   width: 100%;
 }
 
 .footer__div{  
-    height: 150px;
-    border: 2px solid black;
+    height: 50%;
+    /* border: 2px solid black; */
     align-items: center;
     text-align: center;
-    padding: 60px;
+}
+.footer__div--img{
+    width: 32px;
+    height: 32px;
+    margin: 10px;
 }
