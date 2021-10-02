@@ -1,115 +1,186 @@
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0px;
-    background-color: #ADA8B6;
-    font-family: 'Comic Neue', cursive;
-    font-size: 24px;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-header{
-    background-image: url("../assets/images/jeremy-bishop-GIpGxe2_cT4-unsplash.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    font-weight: bolder;
-}
-h2{
-    text-align: center;
+body {
+  margin: 0px;
+  background-color: #ADA8B6;
+  font-family: 'Comic Neue', cursive;
+  font-size: 24px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    padding: 20px;
+header {
+  background-image: url("../assets/images/jeremy-bishop-GIpGxe2_cT4-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  font-weight: bolder;
 }
 
-.navheader{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+h2 {
+  text-align: center;
 }
 
-.navheader__logo--style{
-    font-family: 'Comic Neue', cursive;
-    font-size: 32px;
-    color: #781699;
+a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
 }
 
-.art_types{
-    border: 2px solid black;
-    text-align: center;
-    width: 100%;
-    padding-bottom: 20px ;
-}
-.div__types{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.div__types--style{
-    border: 1px solid black;
-    border-radius: 50px;
-    box-shadow: 5px 5px black;
-    display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
+.navheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
 }
 
-.navMain{
-     font-weight: bolder;
-     background: #EFF8E2;
-}
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0;
-}
-li{ 
-    padding: 10px;
-} 
-
-.location{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-}
-.location:nth-child(odd){
-    flex-direction: row-reverse;
+.navheader__logo--style {
+  font-family: 'Comic Neue', cursive;
+  font-size: 32px;
+  color: #781699;
 }
 
-.location__text{
-    flex: 1;
-}
-.location__img{
-    flex: 1;
+.art {
+  border: 2px solid black;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
+.types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 
-footer{
+.types__style {
+  border: 1px solid black;
+  border-radius: 50px;
+  -webkit-box-shadow: 5px 5px black;
+          box-shadow: 5px 5px black;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.types__style--one {
+  background-image: url("../assets/images/olga-tsai-IQMCYVVa2Wc-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.types__style--two {
+  background-image: url("../assets/images/tatiana-lapina-FkjsBSUCpT4-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.types__style--three {
+  background-image: url("../assets/images/marco-assmann-Rc9mLOR7KaI-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.types__style--four {
+  background-image: url("../assets/images/david-henrichs-OKBb9_v-K1I-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.types__style a {
+  text-decoration: underline;
+  color: white;
+  padding: 20px;
+}
+
+.navMain {
+  font-weight: bolder;
+  background: #EFF8E2;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+.location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.location:nth-child(odd) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.location__text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.location__img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+footer {
   background-color: #573280;
   width: 100%;
 }
 
-.footer__div{  
-    height: 50%;
-    /* border: 2px solid black; */
-    align-items: center;
-    text-align: center;
+.footer__div {
+  height: 50%;
+  /* border: 2px solid black; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
-.footer__div--img{
-    width: 32px;
-    height: 32px;
-    margin: 10px;
+
+.footer__div--img {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
 }
+/*# sourceMappingURL=styles.css.map */
