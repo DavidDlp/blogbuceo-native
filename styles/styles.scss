@@ -39,7 +39,29 @@ h2{
     }
 }
 
-    
+.containerheader{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    align-items: end;
+    text-align: center;
+    height: 90%;
+
+    &__boxone{
+        flex: 5;
+        font-size: 52px;
+        padding: 10px;
+        color: #75096e;
+    }
+
+    &__boxtwo{
+        flex: 7;
+        padding: 75px;
+    }
+}   
 
 .art{
     border: 2px solid black;
@@ -54,7 +76,8 @@ h2{
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
-        min-width: 400px;
+        min-height: 400px;
+        border-top: 2px solid black;
         
     &__style{ 
             border: 1px solid black;
@@ -100,24 +123,19 @@ h2{
 .navMain{
      font-weight: bolder;
      background: #EFF8E2;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
 }
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0;
-}
-li{ 
-    padding: 10px;
-} 
+
 
 .location{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
     
 }
 .location:nth-child(odd){
@@ -129,6 +147,9 @@ li{
 }
 .location__img{
     flex: 1;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
 }
 
 
@@ -142,9 +163,14 @@ footer{
     /* border: 2px solid black; */
     align-items: center;
     text-align: center;
+    
+    &--img{
+        width: 32px;
+        height: 32px;
+        margin: 10px;
+    }
+    p{
+        color: white;
+    }
 }
-.footer__div--img{
-    width: 32px;
-    height: 32px;
-    margin: 10px;
-}
+    
