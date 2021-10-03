@@ -24,6 +24,7 @@ header {
 
 h2{
     text-align: center;
+    text-shadow: 3px 2px 12px;
 }
 
 .navheader{
@@ -36,6 +37,7 @@ h2{
     &__logo{
         font-size: 32px;
         color: #781699;
+        text-shadow: 20px 20px 4px;
     }
 }
 
@@ -149,7 +151,13 @@ h2{
     flex: 1;
     width: 500px;
     height: 500px;
-    border: 1px solid black;
+  
+    img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        border-style: double;
+    }    
 }
 
 
@@ -159,8 +167,6 @@ footer{
 }
 
 .footer__div{  
-    height: 50%;
-    /* border: 2px solid black; */
     align-items: center;
     text-align: center;
     
@@ -173,4 +179,3 @@ footer{
         color: white;
     }
 }
-    
