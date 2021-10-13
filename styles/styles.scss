@@ -17,58 +17,65 @@ a{
         color:#a00;
     }
 }
+h2{
+    text-align: center;
+    text-shadow: 3px 2px 12px;
+}
 
-header {
+.header {
     background-image: url("../assets/images/jeremy-bishop-GIpGxe2_cT4-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     font-weight: bolder;
-}
-
-h2{
-    text-align: center;
-    text-shadow: 3px 2px 12px;
-}
-
-.navheader{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap;
-        
-    &__logo{
-        font-size: 32px;
-        color: #781699;
-        text-shadow: 20px 20px 4px;
-    }
-}
-
-.containerheader{
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 25px;
-    align-items: end;
-    text-align: center;
-    height: 90%;
-
-    &__boxone{
-        flex: 5;
-        font-size: 52px;
+    flex-direction: column;
+    
+    &__navheader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         padding: 10px;
-        color: #75096e;
+        flex-wrap: wrap;
+        flex: 3;
+            
+        &--logo{
+            font-size: 32px;
+            color: #781699;
+            text-shadow: 20px 20px 4px;
+            padding-left: 15%;
+        }
+    
+        &--nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
     }
-
-    &__boxtwo{
+    &__containerheader{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        align-items: end;
+        text-align: center;
         flex: 7;
-        padding: 75px;
-    }
-}   
+    
+        &--boxone{
+            flex: 5;
+            font-size: 52px;
+            padding: 10px;
+            color: #75096e;
+        }
+    
+        &--boxtwo{
+            flex: 7;
+            padding: 50px;
+        }
+    }   
+}
 
 .art{
     border: 2px solid black;
@@ -150,16 +157,16 @@ h2{
 }
 
 .location__text{
-    flex: 1;
+    // flex: 1;
 }
 .location__img{
-    flex: 1;
+    // flex: 1;
     width: 500px;
     height: 500px;
   
     img{
         max-width: 100%;
-        max-width: 100%;
+        max-height: 100%;
         padding: 10px;
         border-style: double;
     }    
